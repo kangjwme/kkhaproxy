@@ -8,12 +8,12 @@ wget https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh
 
 ## 舉例
 
-對外主機IP是 1.1.1.1
+對外主機IP是 1.1.1.1，走25588
 
-後端主機IP是：2.2.2.2
+後端主機IP是：2.2.2.2，走25565
 
-統一都走port 25565
+
 
 ```
-wget https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh && bash haproxy.sh 25565 2.2.2.2 25565
+wget https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh && bash haproxy.sh 25568 2.2.2.2 25565
 ```
