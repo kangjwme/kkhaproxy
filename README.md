@@ -12,8 +12,11 @@ wget https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh
 
 後端主機IP是：2.2.2.2，走25565
 
-
-
 ```
 wget https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh && bash haproxy.sh 25568 2.2.2.2 25565
 ```
+
+## 先備條件
+
+1. 高抗DDoS主機一台
+2. Ubuntu20.04/Debian10 作業系統
