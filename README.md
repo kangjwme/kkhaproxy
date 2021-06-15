@@ -3,7 +3,7 @@
 ## 使用方法
 
 ```
-wget -qO- https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh | bash 這邊輸入這台主機要開的port 輸入後端IP 輸入後端port
+wget -qO- https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh | bash haproxy.sh 這邊輸入這台主機要開的port 輸入後端IP 輸入後端port
 ```
 
 ## 舉例
@@ -15,5 +15,5 @@ wget -qO- https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/hapro
 統一都走port 25565
 
 ```
-wget -qO- https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh | bash 25565 2.2.2.2 25565
+wget -qO- https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh | bash haproxy.sh 25565 2.2.2.2 25565
 ```
