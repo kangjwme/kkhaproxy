@@ -3,7 +3,7 @@
 ## 使用方法
 
 ```
-wget https://git.io/kkhaproxy && bash kkhaproxy.sh 這邊輸入這台主機要開的port 輸入後端IP 輸入後端port
+wget https://git.io/kkhaproxy && bash kkhaproxy 這邊輸入這台主機要開的port 輸入後端IP 輸入後端port
 ```
 ## 舉例
 
@@ -12,7 +12,7 @@ wget https://git.io/kkhaproxy && bash kkhaproxy.sh 這邊輸入這台主機要�
 後端主機IP是：2.2.2.2，走25565
 
 ```
-wget https://git.io/kkhaproxy && bash kkhaproxy.sh 25568 2.2.2.2 25565
+wget https://git.io/kkhaproxy && bash kkhaproxy 25568 2.2.2.2 25565
 ```
 
 ## 先備條件
