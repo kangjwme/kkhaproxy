@@ -3,9 +3,8 @@
 ## 使用方法
 
 ```
-wget https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh && bash haproxy.sh 這邊輸入這台主機要開的port 輸入後端IP 輸入後端port
+wget https://git.io/kkhaproxy && bash kkhaproxy.sh 這邊輸入這台主機要開的port 輸入後端IP 輸入後端port
 ```
-
 ## 舉例
 
 對外主機IP是 1.1.1.1，走25588
@@ -13,7 +12,7 @@ wget https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh
 後端主機IP是：2.2.2.2，走25565
 
 ```
-wget https://raw.githubusercontent.com/kangjwme/haproxy_onepress/main/haproxy.sh && bash haproxy.sh 25568 2.2.2.2 25565
+wget https://git.io/kkhaproxy && bash kkhaproxy.sh 25568 2.2.2.2 25565
 ```
 
 ## 先備條件
